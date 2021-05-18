@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*轮播图*/
+#banner{ 
+	margin: 0 auto; 
+	width: 1000px;
+	height: 480px;
+	overflow: hidden;
+	position: relative;
+	margin-top: 70px;
+} 
+.move{ 
+	animation: lbt 10s ease-in-out infinite; 
+	position: absolute;
+	width: calc(1000px*5);
+	}
+@keyframes lbt{
+	0%,20%{ margin-left:0;}
+	21%,40%{ margin-left:-1000px;}
+	41%,60%{ margin-left:-2000px;}
+	61%,80%{ margin-left:-3000px;}
+	81%,100%{ margin-left:-4000px;}
+}
+#banner img{
+	width: 1000px;
+	height: 480px;
+	float: left;
+}
+

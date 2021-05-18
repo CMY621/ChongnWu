@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>宠友论坛</title>
+	<link rel="stylesheet" href="../css/top-foot.css">
+	<link rel="stylesheet" href="../css/BBS.css">
+	<link rel="stylesheet" href="../css/publish.css">
+	<link rel="stylesheet" href="../css/banner.css">
+	<link rel="stylesheet" href="../css/dynamic.css">
+	<link rel="stylesheet" href="../css/comment.css">
+	<link rel="stylesheet" href="../css/more.css">
+	<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+	
+</head>
+<body>
+	
+	<div id="top">
+		<div class="top_box">
+			<img src="../img/logo.png">
+			<marquee direction="right" behavior="scroll" width="800px">宠屋欢迎主人的到来!</marquee>
+			<a class="dl" href="../html/loading.html">登录|注册</a>
+		</div>
+	</div>
+
+	<div id="main">
+		<ul id="nav">
+			<a href="../index.html"><li class="li_1">宠物大全</li></a>
+			<a href="pet news.html"><li class="li_2">宠物新闻</li></a>
+			<a href="pet BBS.html"><li class="li_3">宠物论坛</li></a>
+			<a href="pet shop.html"><li class="li_4">宠物商城</li></a>
+			<a href="pet circle.html"><li class="li_5">萌宠圈</li></a>
+			<a href="my pet.html"><li class="li_6">My Pet</li></a>
+		</ul>
+
+		<div id="banner">
+			<div class="move">
+				<img src="../img/lb_3.jpg">
+				<img src="../img/lb_2.jpg">
+				<img src="../img/lb_1.jpg">
+				<img src="../img/lb_4.jpg">
+				<img src="../img/lb_5.jpg">
+			</div>
+		</div>
+
+		<div id="publish">
+			<p class="p_tilte">有什么新鲜事告诉大家！</p>
+			<textarea></textarea>
+			<div class="p_foot">
+				<ul>
+					<li><img src="../img/tb_1.png"><a href="#">表情</a></li>
+					<li><img src="../img/tb_2.png"><a href="#">图片</a></li>
+					<li><img src="../img/tb_3.png"><a href="#">视频</a></li>
+					<li><img src="../img/tb_4.png"><a href="#">话题头条</a></li>
+					<li><img src="../img/tb_5.png"><a href="#">文章</a></li>
+					<li><span>…</span></li>
+				</ul>
+				<form action="">
+					<input type="submit" value="发表">
+				</form>
+				<select name="">
+					<option value="">所有人可见</option>
+					<option value="">仅自己可见</option>
+					<option value="">仅朋友可见</option>
+				</select>
+			</div>
+		</div>
+		
+		<div id="dynamic">
+			<div class="title">
+				<img src="../img/bt.png">
+				<span>精彩推送</span>
+			</div>
+			
+			<div class="chunk_1">
+				<img class="chunk_l" src="../img/tx1.png">
+				<div class="chunk_r">
+					<a href="#">贺小米要养龙猫</a>
+					<p>跟宠物店的哥哥说了，放心洗！</p>
+					<img src=""  onerror='this.src="../img/pet_2.jpg"' />
+				</div>
+				<ul>
+					<li><a href="#"><img src="../img/zan.png"></a></li>
+					<li><img src="../img/pl.png"></li>
+					<li><img src="../img/zf.png"></li>
+				</ul>
+				<hr size="2px" color="#e7e7e7">
+				<div class="comment">
+					<div class="com_chunk">
+						<img src="../img/j_tx3.png">
+						<div id="com_chunk_r">
+							<p>
+								<a href="#">捂风挽笑</a>：这个小猫咪好可爱啊！
+							</p>
+							<span>2019-10-21  16:10</span>
+							<span class="reply1">回复</span>
+							<script>
+								$(function(){
+									$('.reply1').on('click', function () {
+										
+										//框的变换
+										$('.pl1').css('display','none');
+										$('.dy_box1').find('textarea').css('display','block');	  
+										$('.reply_d1').css('display','block');		  
+										
+										//回复ID名
+										var ID = $('.reply1').siblings('p').find('a').eq(0).text();
+										$('.dy_box1').find('textarea').text( '回复' + ID + ':' );
+										
+									});
+								});
+							</script>
+						</div>
+					</div>
+					<div class="com_chunk com_chunk1">
+						<img src="../img/j_tx1.png">
+						<div id="com_chunk_r">
+							<p>
+								<a href="#">千羽。。</a>回复
+								<a href="#">捂风挽笑</a>：对啊，我最喜欢它了。
+							</p>
+							<span>2019-10-21  16:15</span>
+							<span class="reply2">回复</span>
+							<script>
+								$(function(){
+									$('.reply2').on('click', function () {
+										
+										//框的变换
+										$('.pl1').css('display','none');
+										$('.dy_box1').find('textarea').css('display','block');	  
+										$('.reply_d1').css('display','block');		  
+										
+										//回复ID名
+										var ID = $('.reply2').siblings('p').find('a').eq( 0 ).text();
+										$('.dy_box1').find('textarea').text( '回复' + ID + ':' );
+									});
+								});
+							</script>
+						</div>
+					</div>
+					
+					
+					
+					
+					
+				</div>
+				
+				<form class="dy_box1" action="">
+					<input class="pl1" type="text" placeholder="评论">
+					<textarea name="" cols="113" rows="8"></textarea>
+					<input class="reply_d1" type="submit" value="回复">
+				</form>
+			</div>
+			
+			
+
+			<div class="chunk_1">
+				<img class="chunk_l" src="../img/tx1.png">
+				<div class="chunk_r">
+					<a href="#">贺小米要养龙猫</a>
+					<p>跟宠物店的哥哥说了，放心洗！</p>
+					<img src="../img/pet_1.jpg"  onerror='this.src="../img/pet_2.jpg"' />
+				</div>
+				<ul>
+					<li><a href="#"><img src="../img/zan.png"></a></li>
+					<li><img src="../img/pl.png"></li>
+					<li><img src="../img/zf.png"></li>
+				</ul>
+				<hr size="2px" color="#e7e7e7">
+				<div class="comment">
+					<div class="com_chunk">
+						<img src="../img/j_tx3.png">
+						<div id="com_chunk_r">
+							<p><a href="#">捂风挽笑</a>：这个小猫咪好可爱啊！</p>
+							<span>2019-10-21  16:10</span>
+							<span class="reply3">回复</span>
+							<script>
+								$(function(){
+									$('.reply3').on('click', function () {
+										
+										//框的变换
+										$('.pl2').css('display','none');
+										$('.dy_box2').find('textarea').css('display','block');	  
+										$('.reply_d2').css('display','block');		  
+										
+										//回复ID名
+										var ID = $('.reply3').siblings('p').find('a').eq( 0 ).text();
+										$('.dy_box2').find('textarea').text( '回复' + ID + ':' );
+									});
+								});
+							</script>
+						</div>
+					</div>
+					<div class="com_chunk com_chunk1">
+						<img src="../img/j_tx1.png">
+						<div id="com_chunk_r">
+							<p><a href="#">千羽。。</a>回复<a href="#">捂风挽笑</a>：对啊，我最喜欢它了。</p>
+							<span>2019-10-21  16:15</span>
+							<span class="reply4">回复</span>
+							<script>
+								$(function(){
+									$('.reply4').on('click', function () {
+										
+										//框的变换
+										$('.pl2').css('display','none');
+										$('.dy_box2').find('textarea').css('display','block');	  
+										$('.reply_d2').css('display','block');		  
+										
+										//回复ID名
+										var ID = $('.reply4').siblings('p').find('a').eq( 0 ).text();
+										$('.dy_box2').find('textarea').text( '回复' + ID + ':' );
+									});
+								});
+							</script>
+						</div>
+					</div>
+				</div>
+				<form class="dy_box2" action="">
+					<input class="pl2" type="text" placeholder="评论">
+					<textarea name="" cols="113" rows="8"></textarea>
+					<input class="reply_d2" type="submit" value="回复">
+				</form>
+			</div>
+		</div>
+	</div>
+		
+	<div id="foot">
+		<p>Copyright© 2020 宠屋.com. All Rights Reserved.</p>
+	</div>
+
+</body>
+</html>

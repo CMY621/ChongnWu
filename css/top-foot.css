@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: kaiti;
+	background: url("../img/bg-daqo.jpg") repeat;
+}
+ul li{
+	list-style: none;
+	float: left;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+
+.li_1{
+	color: #ffb387;
+}
+.li_2{
+	color: #5da894;
+}
+.li_3{
+	color: #6179bc;
+}
+.li_4{
+	color: #ff1c40;
+}
+.li_5{
+	color: #8e569b;
+}
+.li_6{
+	color: #a9834f;
+}
+
+#top{
+	height: 45px;
+	background: url("../img/head_bg.png") repeat-x;
+}
+.top_box{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#top marquee,.dl{
+	font-size: 25px;
+	color: #fff;
+	line-height: 40px;
+}
+.dl{
+	float: right;
+	text-decoration: none;
+}
+.dl:hover{
+	transform: scale(1.10);
+}
+#nav{
+	width: auto;
+	overflow: hidden;
+	margin:5px 0 0 5px;
+}
+#nav li{
+	float: left;
+	width: 165px;
+	height: 45px;
+	text-align: center;
+	list-style: none;
+	background: url("../img/bt_bg.png") no-repeat;
+}
+#nav a li{
+	font-size: 24px;
+	line-height: 45px;
+	text-decoration: none;
+}
+#nav a :hover{
+	background: url("../img/bt_bghover.png") no-repeat;
+	transition-duration: 0.3s;
+	font-size: 28px;
+	color: #fff;
+}
+.title{
+	height: 55px;
+	border-bottom: 2px solid #ff726d;
+}
+.title img{
+	float: left
+}
+.title span{
+	font-size: 30px;
+	color: #ff726d;
+	font-weight: 600;
+	line-height: 68px;
+	padding-left: 10px;
+}
+#foot{
+	height: 130px;
+	margin-top: 50px;
+	background: url("../img/footbg.png") repeat-x;
+}
+#foot p{
+	font-size: 28px;
+	color: #fff;
+	padding-top: 78px;
+	text-align: center;
+}
+
+
+
+
+

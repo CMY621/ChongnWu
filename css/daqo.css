@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+.li_1{
+	background: url("../img/bt_bghover.png") no-repeat!important;
+}
+.li_1{
+	font-size: 28px!important;
+	color: #fff!important;
+}
+#main{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#dog,#cat,#rabbit{
+	margin-top: 50px;
+}
+
+.title a,.l_box a,.r_box a{
+	font-size: 20px;
+	color: #ff726d;
+	float: right;
+	margin-top: 25px;
+	text-decoration: none;
+}
+.title a:hover,.l_box a:hover,.r_box a:hover{
+	transform: scale(1.10);
+	text-decoration: underline;
+}
+.dog_box ul{
+	width: 1050px;
+	overflow: hidden;
+	margin-top: 40px;
+}
+.dog_box ul li{
+	margin-right: 50px;
+}
+
+.dog_box ul li div{
+	max-width: 300px;
+	max-height: 300px;
+	overflow: hidden;
+}
+.dog_box ul li p{
+	font-size: 25px;
+	color: #6e6e6e;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+.dog_box ul img:hover{
+	transform: scale(1.20);
+	transition-duration: 0.8s;
+}
+.dog_box ul li p:hover{
+	color: #ff7c78;
+}
+
+
+
+
+
+
+
+
+

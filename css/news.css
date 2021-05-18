@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+.li_2{
+	background: url("../img/bt_bghover.png") no-repeat!important;
+}
+.li_2{
+	font-size: 28px!important;
+	color: #fff!important;
+}
+#main{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#box{
+	margin-top: 80px;
+}
+.box_chunk{
+	margin-top: 50px;
+}
+.chunk{
+	margin-top: 40px;
+	overflow: hidden;
+}
+.l{
+	float: left;
+}
+.chunk_r{
+	width: 700px;
+	height: 230px;
+	float: right;
+	margin-top: 20px;
+}
+.chunk_r a{
+	color: #ff7c78;
+	font-size: 35px;
+	text-decoration: none;
+}
+.chunk_r p{
+	font-size: 28px;
+	color: #6C6C6C;
+	padding: 25px 0;
+}
+.chunk_r span{
+	font-size: 22px;
+	color: #a0a0a0;
+}
+.chunk img{
+	width: 250px;
+}
+.chunk img:hover{
+	transform: scale(1.05);
+	transition-duration: 0.3s;
+}
+.chunk_r a:hover{
+	text-decoration: underline;
+}
+

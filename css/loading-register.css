@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: kaiti;
+	background: url("../img/bg.jpg");
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	float: left;
+	list-style: none;
+}
+#top{
+	height: 45px;
+	background: url("../img/head_bg.png") repeat-x;
+}
+.top_box{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#top marquee,#top a{
+	font-size: 25px;
+	color: #fff;
+	line-height: 40px;
+}
+#top a{
+	float: right;
+	text-decoration: none;
+}
+#top a:hover{
+	transform: scale(1.10);
+}
+#return{
+	font-size: 25px;
+	color: #ff7c78;
+	font-weight: 600;
+	text-decoration: none;
+	position: absolute;
+	top: 10%;
+	left: 25%;
+}
+#return:hover{
+	text-decoration: underline;
+	transform: scale(1.10);
+	transition-duration: 0.3s;
+}
+
+
+/*登录*/
+#loading{
+	width: 524px;
+	height: 445px;
+	position: absolute;
+	top: 20%;
+	left: 35%;
+}
+.l_box a,#register a{
+	font-size: 20px;
+	color: #ff726d;
+	float: right;
+	margin-top: 25px;
+	text-decoration: none;
+}
+#loading{
+	background: url("../img/bg-loading.png");
+}
+
+.l_box{
+	width: 380px;
+	margin: 80px auto;
+}
+.l_title{
+	height: 30px;
+	border-bottom: 2px solid #ff726d;
+}
+.l_title img{
+	float: left;
+	width: 30px;
+}
+.l_title span{
+	font-size: 25px;
+	color: #ff726d;
+	font-weight: 550;
+	padding-left: 10px;
+}
+#loading form,.r_box form{
+	margin: 20px 0 0 60px;
+}
+.text{
+	width: 260px;
+	height: 38px;
+	font-size: 18px;
+	color: #a0a0a0;
+	padding-left: 5px;
+	border: 1px solid #a0a0a0;
+	margin-bottom: 30px;
+}
+.submit{
+	width: 268px;
+	height: 38px;
+	color: #fff;
+	border: none;
+	font-size: 20px;
+	text-align: center;
+	background-color: #ff7c78;
+}
+.l_box a{
+	margin-top: 10px;
+	overflow: hidden;
+}
+.p_title{
+	margin-top: 30px;
+}
+.l_box ul{
+	margin-top: 10px;
+}
+.l_box ul li{
+	margin-right: 20px;
+}
+
+/*注册*/
+#register{
+	display: none;
+	background: url("../img/bg-zhuce.png");
+}
+#register{
+	width: 735px;
+	height: 563px;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+}
+#register form{
+	margin-left: 50px;
+}
+.r_box{
+	width: 620px;
+	hieght: 500px;
+	margin: 0 0 25px 0;
+	overflow: hidden;
+}
+.tesu{
+	padding: 120px 0 0 0;
+}
+.l{
+	float: left;
+}
+.r{
+	float: right;
+}
+#register p{
+	overflow: hidden;
+	font-size: 25px;
+	color: #9a9a9a;
+	float: left;
+}
+.l input,.r input{
+	width: 180px;
+	height: 30px;
+	border: 1px solid #ff726d;
+	border-radius: 5px;
+	float: right;
+}
+.r_t{
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.go_loading{
+	margin-top: 10px!important;
+	margin-right: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*更多样式*/
+.more{
+	height: 50px;
+	font-size: 25px;
+	color: #ff7c78;
+	line-height: 50px;
+	display: block;
+	background-color: #fff;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 50px;
+}
+.more:hover{
+	font-size: 27px;
+	text-decoration: underline;
+}

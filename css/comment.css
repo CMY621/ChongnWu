@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*评论区*/
+.comment{
+	width: 860px;
+	float: right;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.comment img{
+	float: left;
+}
+.comment p{
+	font-size: 25px;
+	color: #575757;
+	line-height: 40px;
+}
+.comment a{
+	color: #ff7c78;
+	text-decoration: none;
+}
+.comment a:hover{
+	text-decoration: underline;
+}
+.comment span{
+	font-size: 18px;
+	color: #a0a0a0;
+}
+.com_chunk{
+	margin-bottom: 20px;
+}
+#com_chunk_r{
+	margin-left: 80px;
+}
+.com_chunk1{
+	margin-left: 80px;
+}
+
+/*评论框*/
+.dy_box1,.dy_box2{
+	margin-left: 80px;
+}
+.pl1,.pl2{
+	width: 800px;
+	height: 50px;
+	font-size: 24px;
+	border: 1px solid #ff7c78;
+	border-radius: 5px;
+	padding-left: 10px;
+	float: left;
+	display: block;
+}
+.dy_box1 textarea,.dy_box2 textarea{
+	display: none;
+}
+.chunk{
+	position: relative;
+}
+
+.reply1,.reply2,.reply3,.reply4{
+	cursor: pointer;
+	margin-left: 10px;
+}
+.reply1:hover,.reply2:hover,.reply3:hover,.reply4:hover{
+	color: #ff7c78;
+}
+
+.reply_d1,.reply_d2{
+	float: right;
+	font-size: 16px;
+	color: #fff;
+	background-color: #ff7c78;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 30px;
+	margin: 10px 20px 0 0;
+	display: none;
+}
+
+
+
+
+
+
+
+
